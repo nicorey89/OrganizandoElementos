@@ -59,12 +59,23 @@ input.input-style{
 .button-container button{
     font-size: 1rem;
     height: 2rem;
-    background-color: blue;
-    color: white;
+    background-color: var(--Gris-claro);
+    color: black;
 }
 .button-container button.btn-submit{
     width: 120px;
     margin: 0 1rem
+}
+button.btn-reset{
+    width: 120px;
+}
+button.btn-reset:hover{
+    background-color: red;
+    color: white;
+}
+button.btn-submit:hover{
+    background-color: #0022AA;
+    color: white;
 }
 input.input-style::placeholder{
     color: lightgray;

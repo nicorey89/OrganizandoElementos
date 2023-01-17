@@ -265,8 +265,12 @@ footer span {
     font-size: 22px;
     font-weight: 400;
   }
+  .footer-container{
+    display: flex;
+  }
   footer{
     display: flex;
+    flex-direction: column;
   }
 
 }

@@ -21,6 +21,7 @@ hr{
     margin-bottom: 3rem;
 }
 div.form-container{
+    margin: auto;
     padding: 2rem 0;
 }
 .form{
@@ -89,6 +90,9 @@ input.input-style{
     padding: 0 0.5rem;
     outline: none;
 
+}
+input.input-style:focus{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 input.input-style::placeholder{
     color: lightgray;
